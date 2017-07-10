@@ -10,8 +10,10 @@ body {
 }
 
 .navbar-default {
-    font-weight: 600;
+    font-weight: bold;
+    font-size: 1.1rem;
 }
+
 .navbar-default .navbar-nav>.active>a {
     color: #399bd1;
     background-color: transparent;
@@ -23,8 +25,9 @@ body {
 }
 
 .jumbotron {
-        padding-top: 11.85rem;
-        padding-bottom: 11.85rem;
+    margin-top: 51px;
+    padding-top: 11.85rem;
+    padding-bottom: 11.85rem;
 }
 
 .jumbotron h1 {
@@ -38,6 +41,8 @@ body {
 .jumbotron p {
     text-align: center;
     color: white;
+    width: 51.3rem;
+    margin: 0 auto;
 }
 
 .jumbotron button {
@@ -59,4 +64,6 @@ body {
 
 .jumbotron-bike {
     background-image: url("../img/jumbotron-bike.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
